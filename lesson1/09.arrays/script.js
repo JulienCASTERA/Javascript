@@ -78,3 +78,4 @@ numberArr.push(1000);
 const firstArr = [1,2,3];
 const secArr = [4,5,6];
 
+const thirdAddArr = [...firstArr, ...secArr];
