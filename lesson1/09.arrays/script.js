@@ -57,7 +57,6 @@ const multiDimArr = [['1er element du premier element','2eme element du 1er elem
 
 //////////////////////////////////////////////////
 // Ajouter/supprimer les éléments du tableau
-// Les méthodes à utiliser: shift, unshift, push, pop, concat
 
 const numberArr = [1, 2, 3, 4, 5, 6, 7];
 
@@ -84,3 +83,14 @@ const aled = [7, 8, 9, 10];
 const oscours = [11, 12, 13, 14];
 
 constFourthAddArr =  [...firstArr, ...secArr, ...aled, ...oscours];
+
+
+/////////////////// Not da TIME sorry :(
+// Les méthodes à utiliser: slice, splice
+
+// Extrayez les éléments de la position 2 à 4 sans modifier le tableau original: [1, 2, 3, 4, 5, 6, 7]
+// Extrayez le dernier élément du tableau sans modifier le tableau original: [1, 2, 3]
+// Supprimez les deux premiers éléments du tableau original: [1, 2, 3, 4, 5]
+// Insérez trois éléments dans un tableau à la position 2: [1, 2, 3, 4, 5]
+// Remplacer l’élément en position 1 par un autre élément: [1, 2, 3, 4, 5] ​
+
