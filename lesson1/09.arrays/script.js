@@ -72,10 +72,15 @@ numberArr.push(1000);
 
 
 ////////////////////////////////////////////////
-// Fusionnez deux tableau dans un seul: [1, 2, 3] et [4, 5, 6] 
-// Fusionnez plusieurs tableaux dans un seul: [1, 2, 3] et [4, 5, 6] et [7, 8, 9, 10] et [11, 12, 13, 14]
 
 const firstArr = [1,2,3];
 const secArr = [4,5,6];
 
+// Fusionnez deux tableau dans un seul: [1, 2, 3] et [4, 5, 6] 
 const thirdAddArr = [...firstArr, ...secArr];
+
+// Fusionnez plusieurs tableaux dans un seul: [1, 2, 3] et [4, 5, 6] et [7, 8, 9, 10] et [11, 12, 13, 14]
+const aled = [7, 8, 9, 10];
+const oscours = [11, 12, 13, 14];
+
+constFourthAddArr =  [...firstArr, ...secArr, ...aled, ...oscours];
