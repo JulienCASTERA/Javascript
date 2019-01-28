@@ -43,3 +43,38 @@ console.log(myArray[myArray.length - 1]);
 
 const myArr = [1, 2, 3];
 const myArr2 = [...myArr]; // Le tableau myArr est recopié sans garder la référence
+
+
+// Créez un tableau qui contient les éléments de différents types.
+const multiTypeArr = [1, 'DuText', 'Oscours', 55];
+
+// Créez un tableau multidimensionnel d'au moins 3 éléments. Loggez le premier élément du premier élément. Modifiez le second élément du dernier élément.
+
+const multiDimArr = [['1er element du premier element','2eme element du 1er element','3eme element du 1er element'],
+                    ['1er element du deuxieme element','2eme element du deuxieme element','3eme element du deuxieme element'],
+                    ['1er element du troisieme element','2eme element du troisieme element','3eme element du troisieme element']];
+
+
+//////////////////////////////////////////////////
+// Ajouter/supprimer les éléments du tableau
+// Les méthodes à utiliser: shift, unshift, push, pop, concat
+
+const numberArr = [1, 2, 3, 4, 5, 6, 7];
+
+// Supprimez le premier élément du tableau.
+numberArr.pop(0);
+// Supprimez le dernier élément du tableau.
+numberArr.pop(numberArr.length - 1);
+// Ajoutez un élément au début du tableau.
+numberArr.unshift(0);
+// Ajoutez un élément à la fin du tableau.
+numberArr.push(1000);
+
+
+////////////////////////////////////////////////
+// Fusionnez deux tableau dans un seul: [1, 2, 3] et [4, 5, 6] 
+// Fusionnez plusieurs tableaux dans un seul: [1, 2, 3] et [4, 5, 6] et [7, 8, 9, 10] et [11, 12, 13, 14]
+
+const firstArr = [1,2,3];
+const secArr = [4,5,6];
+
