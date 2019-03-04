@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .text-danger {
+            color: red;
+        }
+
+        #js-hovered {
+            background-color: blue;
+            width: 7rem;
+            height: 7rem;
+        }
+
+        .tooltip-wrapper {
+            position: relative;
+        }
+
+        .tooltip {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, .7);
+            color: #fff;
+            opacity: 1;
+            transform: translateY(100%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="js-bouton">Oscours</button>
+
+    <div id="js-hovered"></div>
+
+
+    <p class="tooltip-wrapper" id="js-tooltip-wrapper">
+        <span class="tooltip" id="js-tooltip">En informatique, un langage de programmation est une notation
+            conventionnelle destinée à formuler des algorithmes et produire des programmes informatiques qui les
+            appliquent.</span>
+        JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives
+        mais aussi pour les serveurs avec l'utilisation (par exemple) de Node.js.
+    </p>
+
+
+    <form id="js-form">
+        <input type="radio" name="pettype" value="cat" id="js-radio-cat">Cat
+        <input type="radio" name="pettype" value="dog" id="js-radio-dog">Dog
+
+        <input type="text" name="petname" placeholder="Your pet name" id="js-input">
+
+        <input type="submit" value="Submit" id="js-submit">
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

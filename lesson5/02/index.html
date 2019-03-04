@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .text-danger {
+            color: red;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Some title</h1>
+
+    <article id="js-article">
+        <h2>Article title</h2>
+        <p>Article content</p>
+    </article>
+
+    <input type="text" id="js-search" placeholder="Search something..." value="Poodles">
+    <br><br>
+
+
+    <div class="container">
+        <form class="form-row" id="js-search-form">
+
+            <div class="col-auto">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">Search</div>
+                    </div>
+                    <input type="text" class="form-control" id="js-search" placeholder="Recherche">
+                </div>
+            </div>
+
+            <div class="col-auto">
+                <button class="btn btn-primary" type="submit">Rechercher</button>
+            </div>
+        </form>
+
+        <div id="js-search-result"></div>
+    </div>
+
+
+    <article id="js-article-1"></article>
+    <article id="js-article-2">
+        <h1>Cats are the weirdest-2</h1>
+        <p>My cat would get on the kitchen counter and eat the plastic wrap on the loaf bread. Just the plastic, not the
+            actual bread.</p>
+    </article>
+
+    <div id="js-cat-problems" class="container"></div>
+
+    <div id="js-alert" class="alert">
+        <p>Very important message</p>
+    </div>
+    <button id="js-btn" class="btn btn-secondary">Change alert state</button>
+    <br><br>
+
+    <div class="alert alert-danger" id="js-danger-alert">
+        <p>My alert</p>
+        <button class="btn btn-success" id="js-danger-alert-btn">Ok</button>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

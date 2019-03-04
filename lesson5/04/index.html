@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        #js-slide-example-address {
+            margin: 0;
+            padding: 2rem;
+            background-color: #b9bdd4;
+        }
+
+        #js-slide-example-links {
+            display: flex;
+            padding: 1rem 2rem;
+            background-color: #6e6f87;
+            color: #fff;
+        }
+
+        #js-slide-example-links a {
+            margin-right: 2rem;
+            color: inherit;
+        }
+
+        #js-div-1,
+        #js-div-2,
+        #js-div-3,
+        #js-div-4 {
+            background-color: aqua;
+            height: 50px;
+            width: 50px;
+            opacity: 0.3;
+            margin: 5px;
+        }
+
+        #js-animation-1 {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 0 solid red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="alert alert-primary" style="display: none;" id="js-alert">
+        Hide me!
+        <button id="js-hide-alert">✕</button>
+    </div>
+
+
+
+    <button class="btn btn-primary" id="js-show-alert">Show alert</button>
+
+
+    <p id="js-slide-example-address">Quai de Chartrons 33000 Bordeaux</p>
+    <div id="js-slide-example-links" style="display: none;">
+        <a href="#">Voir sur la carte</a>
+        <a href="#">Directions</a>
+    </div>
+
+    <button class="btn btn-success" id="js-btn-fade-in">Fade In</button>
+    <button class="btn btn-danger" id="js-btn-fade-out">Fade Out</button>
+    <div style="background:#2E9AFE; width:200px; height:200px; margin-top:30px;" id="js-div-fade-in-out"></div>
+
+
+    <div id="js-div-1"></div>
+    <div id="js-div-2"></div>
+    <div id="js-div-3"></div>
+    <div id="js-div-4"></div>
+
+
+    <div id="js-animation-1"></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
